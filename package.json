@@ -1,0 +1,36 @@
+{
+  "name": "abstract-class",
+  "version": "1.0.0",
+  "description": "Prevents instantiation of a parent class. Optionally defines properties that must be implemented by child classes.",
+  "keywords": [
+    "abstract",
+    "class",
+    "methods"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/abstract-class",
+  "repository": "lamansky/abstract-class",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "@lamansky/flatten": "^1.0.0",
+    "sbo": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
